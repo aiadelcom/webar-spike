@@ -4,11 +4,11 @@
   "console": [
     {
       "type": "info",
-      "text": "[SPIKE-AR1] {\"at\":\"2026-10-24T17:00:09.283Z\",\"pageMs\":31,\"event\":\"page-open\",\"userAgent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36\",\"secureContext\":true}"
+      "text": "[SPIKE-AR1] {\"at\":\"2026-10-24T17:08:16.546Z\",\"pageMs\":42,\"event\":\"page-open\",\"engine\":\"binary\",\"userAgent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36\",\"secureContext\":true}"
     },
     {
       "type": "info",
-      "text": "[SPIKE-AR1] {\"at\":\"2026-10-24T17:00:09.440Z\",\"pageMs\":188,\"event\":\"start-click\"}"
+      "text": "[SPIKE-AR1] {\"at\":\"2026-10-24T17:08:16.650Z\",\"pageMs\":146,\"event\":\"start-click\"}"
     },
     {
       "type": "log",
@@ -32,7 +32,7 @@
     },
     {
       "type": "info",
-      "text": "[SPIKE-AR1] {\"at\":\"2026-10-24T17:00:10.244Z\",\"pageMs\":992,\"event\":\"engine-configured\",\"disableWorldTracking\":true,\"targets\":[\"portrait\",\"city\"],\"aframe\":\"1.5.0\"}"
+      "text": "[SPIKE-AR1] {\"at\":\"2026-10-24T17:08:17.334Z\",\"pageMs\":830,\"event\":\"engine-configured\",\"engine\":\"binary\",\"enginePath\":\"external/xr/xr.js\",\"disableWorldTracking\":true,\"targets\":[\"portrait\",\"city\"],\"aframe\":\"1.5.0\"}"
     },
     {
       "type": "warning",
@@ -40,47 +40,47 @@
     },
     {
       "type": "info",
-      "text": "[SPIKE-AR1] {\"at\":\"2026-10-24T17:00:10.333Z\",\"pageMs\":1081,\"event\":\"camera\",\"status\":\"requesting\"}"
+      "text": "[SPIKE-AR1] {\"at\":\"2026-10-24T17:08:17.413Z\",\"pageMs\":910,\"event\":\"camera\",\"status\":\"requesting\"}"
     },
     {
       "type": "warning",
-      "text": "[.WebGL-0x39dc0013a400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      "text": "[.WebGL-0x294c00136400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
     },
     {
       "type": "warning",
-      "text": "[.WebGL-0x39dc0013a400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      "text": "[.WebGL-0x294c00136400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
     },
     {
       "type": "warning",
-      "text": "[.WebGL-0x39dc0013a400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+      "text": "[.WebGL-0x294c00136400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
     },
     {
       "type": "warning",
-      "text": "[.WebGL-0x39dc0013a400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+      "text": "[.WebGL-0x294c00136400]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
     },
     {
       "type": "info",
-      "text": "[SPIKE-AR1] {\"at\":\"2026-10-24T17:00:10.387Z\",\"pageMs\":1135,\"event\":\"camera\",\"status\":\"hasStream\"}"
+      "text": "[SPIKE-AR1] {\"at\":\"2026-10-24T17:08:17.453Z\",\"pageMs\":949,\"event\":\"camera\",\"status\":\"hasStream\"}"
     },
     {
       "type": "info",
-      "text": "[SPIKE-AR1] {\"at\":\"2026-10-24T17:00:10.496Z\",\"pageMs\":1244,\"event\":\"camera\",\"status\":\"hasVideo\"}"
+      "text": "[SPIKE-AR1] {\"at\":\"2026-10-24T17:08:17.560Z\",\"pageMs\":1056,\"event\":\"camera\",\"status\":\"hasVideo\"}"
     },
     {
       "type": "info",
-      "text": "[SPIKE-AR1] {\"at\":\"2026-10-24T17:00:10.496Z\",\"pageMs\":1244,\"event\":\"camera-start\",\"clock\":\"performance.now\",\"origin\":\"camerastatuschange:hasVideo\"}"
+      "text": "[SPIKE-AR1] {\"at\":\"2026-10-24T17:08:17.560Z\",\"pageMs\":1056,\"event\":\"camera-start\",\"clock\":\"performance.now\",\"origin\":\"camerastatuschange:hasVideo\"}"
     },
     {
       "type": "info",
-      "text": "[SPIKE-AR1] {\"at\":\"2026-10-24T17:00:10.573Z\",\"pageMs\":1321,\"event\":\"xrimageloading\"}"
+      "text": "[SPIKE-AR1] {\"at\":\"2026-10-24T17:08:17.620Z\",\"pageMs\":1116,\"event\":\"xrimageloading\"}"
     },
     {
       "type": "info",
-      "text": "[SPIKE-AR1] {\"at\":\"2026-10-24T17:00:11.631Z\",\"pageMs\":2380,\"event\":\"xrimagescanning\",\"targets\":[\"portrait\",\"city\"]}"
+      "text": "[SPIKE-AR1] {\"at\":\"2026-10-24T17:08:18.554Z\",\"pageMs\":2051,\"event\":\"xrimagescanning\",\"targets\":[\"portrait\",\"city\"]}"
     },
     {
       "type": "info",
-      "text": "[SPIKE-AR1] {\"at\":\"2026-10-24T17:00:12.088Z\",\"pageMs\":2836,\"event\":\"realityready\"}"
+      "text": "[SPIKE-AR1] {\"at\":\"2026-10-24T17:08:18.960Z\",\"pageMs\":2456,\"event\":\"realityready\"}"
     },
     {
       "type": "warning",
@@ -88,7 +88,7 @@
     },
     {
       "type": "info",
-      "text": "[SPIKE-AR1] {\"at\":\"2026-10-24T17:00:17.209Z\",\"pageMs\":7957,\"event\":\"fallback\",\"reason\":\"Камера закрыта. Для нового замера перезагрузите страницу.\"}"
+      "text": "[SPIKE-AR1] {\"at\":\"2026-10-24T17:08:24.407Z\",\"pageMs\":7903,\"event\":\"fallback\",\"reason\":\"Камера закрыта. Для нового замера перезагрузите страницу.\"}"
     }
   ],
   "pageErrors": [],
@@ -102,6 +102,12 @@
       "scene": true,
       "camera": true
     },
+    "hasVideo": true,
+    "realityready": true,
+    "scanningTargets": [
+      "portrait",
+      "city"
+    ],
     "video": [
       {
         "id": "ar-video-portrait",
@@ -162,11 +168,11 @@
       "console": [
         {
           "type": "info",
-          "text": "[SPIKE-AR1] {\"at\":\"2026-10-24T17:00:18.505Z\",\"pageMs\":25,\"event\":\"page-open\",\"userAgent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36\",\"secureContext\":true}"
+          "text": "[SPIKE-AR1] {\"at\":\"2026-10-24T17:08:25.576Z\",\"pageMs\":32,\"event\":\"page-open\",\"engine\":\"binary\",\"userAgent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36\",\"secureContext\":true}"
         },
         {
           "type": "info",
-          "text": "[SPIKE-AR1] {\"at\":\"2026-10-24T17:00:18.620Z\",\"pageMs\":140,\"event\":\"start-click\"}"
+          "text": "[SPIKE-AR1] {\"at\":\"2026-10-24T17:08:25.701Z\",\"pageMs\":157,\"event\":\"start-click\"}"
         },
         {
           "type": "log",
@@ -190,7 +196,7 @@
         },
         {
           "type": "info",
-          "text": "[SPIKE-AR1] {\"at\":\"2026-10-24T17:00:19.357Z\",\"pageMs\":876,\"event\":\"engine-configured\",\"disableWorldTracking\":true,\"targets\":[\"portrait\",\"city\"],\"aframe\":\"1.5.0\"}"
+          "text": "[SPIKE-AR1] {\"at\":\"2026-10-24T17:08:26.375Z\",\"pageMs\":831,\"event\":\"engine-configured\",\"engine\":\"binary\",\"enginePath\":\"external/xr/xr.js\",\"disableWorldTracking\":true,\"targets\":[\"portrait\",\"city\"],\"aframe\":\"1.5.0\"}"
         },
         {
           "type": "warning",
@@ -198,11 +204,11 @@
         },
         {
           "type": "info",
-          "text": "[SPIKE-AR1] {\"at\":\"2026-10-24T17:00:19.430Z\",\"pageMs\":950,\"event\":\"camera\",\"status\":\"requesting\"}"
+          "text": "[SPIKE-AR1] {\"at\":\"2026-10-24T17:08:26.438Z\",\"pageMs\":893,\"event\":\"camera\",\"status\":\"requesting\"}"
         },
         {
           "type": "info",
-          "text": "[SPIKE-AR1] {\"at\":\"2026-10-24T17:00:19.456Z\",\"pageMs\":975,\"event\":\"camera\",\"status\":\"failed\"}"
+          "text": "[SPIKE-AR1] {\"at\":\"2026-10-24T17:08:26.457Z\",\"pageMs\":912,\"event\":\"camera\",\"status\":\"failed\"}"
         },
         {
           "type": "warning",
@@ -210,11 +216,11 @@
         },
         {
           "type": "info",
-          "text": "[SPIKE-AR1] {\"at\":\"2026-10-24T17:00:19.459Z\",\"pageMs\":979,\"event\":\"fallback\",\"reason\":\"Камера недоступна или доступ отклонён. Откройте ссылку в Safari/Chrome и разрешите камеру.\"}"
+          "text": "[SPIKE-AR1] {\"at\":\"2026-10-24T17:08:26.459Z\",\"pageMs\":915,\"event\":\"fallback\",\"reason\":\"Камера недоступна или доступ отклонён. Откройте ссылку в Safari/Chrome и разрешите камеру.\"}"
         },
         {
           "type": "info",
-          "text": "[SPIKE-AR1] {\"at\":\"2026-10-24T17:00:19.486Z\",\"pageMs\":1005,\"event\":\"visibility\",\"hidden\":true}"
+          "text": "[SPIKE-AR1] {\"at\":\"2026-10-24T17:08:26.480Z\",\"pageMs\":935,\"event\":\"visibility\",\"hidden\":true}"
         }
       ],
       "pageErrors": []

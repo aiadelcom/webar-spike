@@ -7,7 +7,7 @@ import subprocess
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 BASE = 'https://aiadelcom.github.io/webar-spike/'
-files = ['index.html', 'print.html', 'app.js', 'style.css', 'LICENSE-THIRD-PARTY.md']
+files = ['', 'mit/', 'mit/index.html', 'index.html', 'print.html', 'app.js', 'style.css', 'LICENSE-THIRD-PARTY.md']
 files += [f['path'] for f in json.loads((ROOT / 'verification/assets.json').read_text())['files']]
 
 def check(name):
@@ -15,7 +15,7 @@ def check(name):
     headers = result.stdout.strip().splitlines()
     status = int(headers[0].split()[1])
     fields = dict(line.split(':', 1) for line in headers[1:] if ':' in line)
-    return {'path': name, 'status': status, 'localBytes': (ROOT / name).stat().st_size,
+    return {'path': name, 'status': status, 'localBytes': ((ROOT / name) if (ROOT / name).is_file() else ROOT / name / 'index.html').stat().st_size,
             'contentLength': fields.get('content-length', '').strip(), 'contentType': fields.get('content-type', '').strip()}
 
 with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:

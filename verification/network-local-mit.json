@@ -1,0 +1,126 @@
+{
+  "base": "https://spike.test/mit/",
+  "engine": "@8thwall/engine@0.1.0",
+  "captureStarted": "before navigation",
+  "scanningAt": "2026-10-24T17:07:24.140Z",
+  "requestsUntilScanning": [
+    {
+      "url": "https://spike.test/mit/",
+      "method": "GET",
+      "resourceType": "document",
+      "at": "2026-10-24T17:07:21.918Z",
+      "status": 200
+    },
+    {
+      "url": "https://spike.test/style.css",
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "at": "2026-10-24T17:07:21.931Z",
+      "status": 200
+    },
+    {
+      "url": "https://spike.test/app.js",
+      "method": "GET",
+      "resourceType": "script",
+      "at": "2026-10-24T17:07:21.932Z",
+      "status": 200
+    },
+    {
+      "url": "https://spike.test/targets/portrait_cropped.jpg",
+      "method": "GET",
+      "resourceType": "image",
+      "at": "2026-10-24T17:07:21.932Z",
+      "status": 200
+    },
+    {
+      "url": "https://spike.test/targets/city_cropped.jpg",
+      "method": "GET",
+      "resourceType": "image",
+      "at": "2026-10-24T17:07:21.932Z",
+      "status": 200
+    },
+    {
+      "url": "https://spike.test/media/portrait.mp4",
+      "method": "GET",
+      "resourceType": "media",
+      "at": "2026-10-24T17:07:21.939Z",
+      "status": 200
+    },
+    {
+      "url": "https://spike.test/targets/portrait.json",
+      "method": "GET",
+      "resourceType": "fetch",
+      "at": "2026-10-24T17:07:22.081Z",
+      "status": 200
+    },
+    {
+      "url": "https://spike.test/targets/city.json",
+      "method": "GET",
+      "resourceType": "fetch",
+      "at": "2026-10-24T17:07:22.081Z",
+      "status": 200
+    },
+    {
+      "url": "https://spike.test/external/scripts/8frame-1.5.0.min.js",
+      "method": "GET",
+      "resourceType": "script",
+      "at": "2026-10-24T17:07:22.082Z",
+      "status": 200
+    },
+    {
+      "url": "https://spike.test/media/portrait.mp4",
+      "method": "GET",
+      "resourceType": "media",
+      "at": "2026-10-24T17:07:22.084Z",
+      "status": 200
+    },
+    {
+      "url": "https://spike.test/media/city.mp4",
+      "method": "GET",
+      "resourceType": "media",
+      "at": "2026-10-24T17:07:22.084Z",
+      "status": 200
+    },
+    {
+      "url": "https://spike.test/external/xrextras/xrextras.js",
+      "method": "GET",
+      "resourceType": "script",
+      "at": "2026-10-24T17:07:22.326Z",
+      "status": 200
+    },
+    {
+      "url": "https://spike.test/external/xr-mit/xr.js",
+      "method": "GET",
+      "resourceType": "script",
+      "at": "2026-10-24T17:07:22.359Z",
+      "status": 200
+    },
+    {
+      "url": "https://spike.test/external/xr-mit/xr-tracking.js",
+      "method": "GET",
+      "resourceType": "script",
+      "at": "2026-10-24T17:07:22.487Z",
+      "status": 200
+    },
+    {
+      "url": "https://spike.test/targets/portrait_luminance.jpg",
+      "method": "GET",
+      "resourceType": "image",
+      "at": "2026-10-24T17:07:23.036Z",
+      "status": 200
+    },
+    {
+      "url": "https://spike.test/targets/city_luminance.jpg",
+      "method": "GET",
+      "resourceType": "image",
+      "at": "2026-10-24T17:07:23.036Z",
+      "status": 200
+    }
+  ],
+  "requestsAfterScanningUntilStop": [],
+  "hosts": [
+    "spike.test"
+  ],
+  "nianticRequests": [],
+  "binaryRuntimeRequests": []
+}

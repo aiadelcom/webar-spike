@@ -1,6 +1,8 @@
 /* Static SPIKE-AR1. No account, API server, WebXR session or app key. */
 'use strict';
 (() => {
+  const engineName = document.currentScript.dataset.engineName || 'binary';
+  const enginePath = document.currentScript.dataset.engine || 'external/xr/xr.js';
   const $ = (id) => document.getElementById(id);
   const names = ['portrait', 'city'];
   const records = [];
@@ -88,7 +90,7 @@
         reject(new Error('XR8 xrloaded timeout (45 s)'));
       }, 45000);
       window.addEventListener('xrloaded', ready, {once: true});
-      loadScript('external/xr/xr.js', {'data-preload-chunks': 'slam'}).then(() => {
+      loadScript(enginePath, {'data-preload-chunks': 'slam'}).then(() => {
         if (window.XR8) ready();
       }).catch((error) => {
         clearTimeout(timer);
@@ -191,7 +193,7 @@
       const imageTargetData = targetResult.data;
       if (mode !== 'loading') return;
       XR8.XrController.configure({disableWorldTracking: true, imageTargetData});
-      log('engine-configured', {disableWorldTracking: true, targets: imageTargetData.map((t) => t.name), aframe: AFRAME.version});
+      log('engine-configured', {engine: engineName, enginePath, disableWorldTracking: true, targets: imageTargetData.map((t) => t.name), aframe: AFRAME.version});
       AFRAME.registerComponent('spike-video-size', {
         init() {
           this.onGeometry = ({detail}) => {
@@ -245,7 +247,7 @@
   $('start').addEventListener('click', start);
   $('play').addEventListener('click', () => active.forEach(playVideo));
   $('stop').addEventListener('click', () => fallback('Камера закрыта. Для нового замера перезагрузите страницу.'));
-  $('copy-log').addEventListener('click', () => copy(JSON.stringify({task: 'SPIKE-AR1 / TREK-594 / EPIC-16', url: location.href, userAgent: navigator.userAgent, cameraToFirstFoundMs: firstFoundMs, records}, null, 2), 'Лог скопирован. Пришлите его вместе с устройством и условиями теста.'));
+  $('copy-log').addEventListener('click', () => copy(JSON.stringify({task: 'SPIKE-AR1 / TREK-594 / EPIC-16', engine: engineName, url: location.href, userAgent: navigator.userAgent, cameraToFirstFoundMs: firstFoundMs, records}, null, 2), 'Лог скопирован. Пришлите его вместе с устройством и условиями теста.'));
   $('open-browser').addEventListener('click', () => copy(location.href, 'Ссылка скопирована. Вставьте её в Safari/Chrome.'));
   $('fallback-target').addEventListener('change', ({target}) => {
     const name = target.value;
@@ -262,7 +264,7 @@
   window.addEventListener('pagehide', stopCamera);
   window.addEventListener('error', (event) => log('window-error', {message: event.message, file: event.filename, line: event.lineno}));
   window.addEventListener('unhandledrejection', (event) => log('unhandledrejection', describe(event.reason)));
-  log('page-open', {userAgent: navigator.userAgent, secureContext: window.isSecureContext});
+  log('page-open', {engine: engineName, userAgent: navigator.userAgent, secureContext: window.isSecureContext});
   const embedded = /Instagram|Telegram|FBAN|FBAV|FB_IAB|FBIOS|FB4A|\bVK\b|VKAndroidApp|VKApp|VKontakte|com\.vk\./i.test(navigator.userAgent);
   if (embedded) fallback('Вы открыли страницу во встроенном браузере. Для камеры скопируйте ссылку и откройте её в Safari/Chrome.');
   else if (!navigator.mediaDevices?.getUserMedia) fallback('В этом браузере нет доступа к камере. Откройте HTTPS-ссылку в Safari/Chrome.');

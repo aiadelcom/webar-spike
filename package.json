@@ -4,6 +4,7 @@
   "private": true,
   "description": "SPIKE-AR1 / TREK-594: static 8th Wall image target experiment",
   "dependencies": {
+    "@8thwall/engine": "0.1.0",
     "@8thwall/engine-binary": "1.0.0",
     "@8thwall/xrextras": "1.0.0"
   }

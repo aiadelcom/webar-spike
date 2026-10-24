@@ -4,7 +4,7 @@
     "h264Avc1SampleEntry": true,
     "bytes": 1862205
   },
-  "externalBytes": 13577132,
+  "externalBytes": 13490652,
   "files": [
     {
       "path": "external/scripts/8frame-1.5.0.min.js",
@@ -32,11 +32,6 @@
       "sha256": "ceb73d8655c544b8fe0c60fdf7de9a6c5e20ed9410e5c412f325b183360ed9ed"
     },
     {
-      "path": "external/xr/resources/media-worker.js",
-      "bytes": 4995543,
-      "sha256": "db47c89ca2ec7d9eba75e114c195896c74c7b0ff888ce2970dfd9bd8bdfeda8d"
-    },
-    {
       "path": "external/xr/resources/powered-by.svg",
       "bytes": 6056,
       "sha256": "4c8bf13771807ac55c963fc08421f611e6e1ab37d5410dc0bbf049f94bea0797"
@@ -50,6 +45,26 @@
       "path": "external/xr/xr.js",
       "bytes": 1036695,
       "sha256": "b3973936862f4cb77ae32d24f253d8a0e8b1de4fa2a0cf688833742889ee829d"
+    },
+    {
+      "path": "external/xr-mit/LICENSE",
+      "bytes": 1069,
+      "sha256": "0a320756838ccfc28f5652e81e9d20dec1a23428c1841d9d378af5f44c7b5cde"
+    },
+    {
+      "path": "external/xr-mit/resources/powered-by.svg",
+      "bytes": 6056,
+      "sha256": "4c8bf13771807ac55c963fc08421f611e6e1ab37d5410dc0bbf049f94bea0797"
+    },
+    {
+      "path": "external/xr-mit/xr-tracking.js",
+      "bytes": 3887693,
+      "sha256": "50d41426e7afecc25a19a1df1538369f62c27d3cdc6b189bfc497c77b70af2a7"
+    },
+    {
+      "path": "external/xr-mit/xr.js",
+      "bytes": 1014245,
+      "sha256": "e8f40d323966862ede42e090d7e271d8d466311845f802cac1f57ffed2643c4e"
     },
     {
       "path": "external/xrextras/LICENSE",

@@ -1,0 +1,370 @@
+{
+  "checkedAt": "2026-10-24T17:02:05.813419+00:00",
+  "base": "https://aiadelcom.github.io/webar-spike/",
+  "files": [
+    {
+      "path": "index.html",
+      "status": 200,
+      "localBytes": 3842,
+      "contentLength": "3842",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "path": "print.html",
+      "status": 200,
+      "localBytes": 2332,
+      "contentLength": "2332",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "path": "app.js",
+      "status": 200,
+      "localBytes": 13469,
+      "contentLength": "13469",
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "style.css",
+      "status": 200,
+      "localBytes": 2970,
+      "contentLength": "2970",
+      "contentType": "text/css; charset=utf-8"
+    },
+    {
+      "path": "LICENSE-THIRD-PARTY.md",
+      "status": 200,
+      "localBytes": 17209,
+      "contentLength": "17209",
+      "contentType": "text/markdown; charset=utf-8"
+    },
+    {
+      "path": "external/scripts/8frame-1.5.0.min.js",
+      "status": 200,
+      "localBytes": 1389713,
+      "contentLength": "1389713",
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "external/scripts/LICENSE",
+      "status": 200,
+      "localBytes": 15932,
+      "contentLength": "15932",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "path": "external/xr/LICENSE",
+      "status": 200,
+      "localBytes": 15994,
+      "contentLength": "15994",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "path": "external/xr/resources/dom-tablet-button.glb",
+      "status": 200,
+      "localBytes": 38236,
+      "contentLength": "38236",
+      "contentType": "model/gltf-binary"
+    },
+    {
+      "path": "external/xr/resources/dom-tablet-frame.glb",
+      "status": 200,
+      "localBytes": 43028,
+      "contentLength": "43028",
+      "contentType": "model/gltf-binary"
+    },
+    {
+      "path": "external/xr/resources/media-worker.js",
+      "status": 200,
+      "localBytes": 4995543,
+      "contentLength": "4995543",
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "external/xr/resources/powered-by.svg",
+      "status": 200,
+      "localBytes": 6056,
+      "contentLength": "6056",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "external/xr/xr-slam.js",
+      "status": 200,
+      "localBytes": 5538007,
+      "contentLength": "5538007",
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "external/xr/xr.js",
+      "status": 200,
+      "localBytes": 1036695,
+      "contentLength": "1036695",
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "external/xrextras/LICENSE",
+      "status": 200,
+      "localBytes": 1069,
+      "contentLength": "1069",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "path": "external/xrextras/resources/Nunito-Regular-1c6859b0d94c85eeab14.ttf",
+      "status": 200,
+      "localBytes": 48808,
+      "contentLength": "48808",
+      "contentType": "font/ttf"
+    },
+    {
+      "path": "external/xrextras/resources/Nunito-Regular-e8aadc1b678fa56c9d09.woff",
+      "status": 200,
+      "localBytes": 25156,
+      "contentLength": "25156",
+      "contentType": "font/woff"
+    },
+    {
+      "path": "external/xrextras/resources/Nunito-SemiBold-30a2630500a6934f6e62.ttf",
+      "status": 200,
+      "localBytes": 49100,
+      "contentLength": "49100",
+      "contentType": "font/ttf"
+    },
+    {
+      "path": "external/xrextras/resources/Nunito-SemiBold-51aac6462452f9d89a71.woff",
+      "status": 200,
+      "localBytes": 25272,
+      "contentLength": "25272",
+      "contentType": "font/woff"
+    },
+    {
+      "path": "external/xrextras/resources/android-fallback-e7f674541b4f5499c9f6.png",
+      "status": 200,
+      "localBytes": 15371,
+      "contentLength": "15371",
+      "contentType": "image/png"
+    },
+    {
+      "path": "external/xrextras/resources/camera-9a529c4cbecd57bdd44d.svg",
+      "status": 200,
+      "localBytes": 825,
+      "contentLength": "825",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "external/xrextras/resources/close-c1a3ef4f62e661792b89.svg",
+      "status": 200,
+      "localBytes": 494,
+      "contentLength": "494",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "external/xrextras/resources/computer-voxel-81a0a7b770f943336d6b.png",
+      "status": 200,
+      "localBytes": 52983,
+      "contentLength": "52983",
+      "contentType": "image/png"
+    },
+    {
+      "path": "external/xrextras/resources/dots-80d25cf3012227aa2cd3.svg",
+      "status": 200,
+      "localBytes": 1322,
+      "contentLength": "1322",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "external/xrextras/resources/download-579ee96584dfa7773ded.svg",
+      "status": 200,
+      "localBytes": 2531,
+      "contentLength": "2531",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "external/xrextras/resources/google-chrome-36a08b3267faf39f1efd.png",
+      "status": 200,
+      "localBytes": 15034,
+      "contentLength": "15034",
+      "contentType": "image/png"
+    },
+    {
+      "path": "external/xrextras/resources/load-grad-212951b3b037207ca630.png",
+      "status": 200,
+      "localBytes": 16274,
+      "contentLength": "16274",
+      "contentType": "image/png"
+    },
+    {
+      "path": "external/xrextras/resources/microphone-3962338638d992842c39.svg",
+      "status": 200,
+      "localBytes": 1976,
+      "contentLength": "1976",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "external/xrextras/resources/poweredby-horiz-white-0b1f38e485e6541907d3.svg",
+      "status": 200,
+      "localBytes": 15759,
+      "contentLength": "15759",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "external/xrextras/resources/reload-4629651ddd76db4ade3b.svg",
+      "status": 200,
+      "localBytes": 767,
+      "contentLength": "767",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "external/xrextras/resources/safari-fallback-651a4291492cf0a55a49.png",
+      "status": 200,
+      "localBytes": 16738,
+      "contentLength": "16738",
+      "contentType": "image/png"
+    },
+    {
+      "path": "external/xrextras/resources/safari-icon-9417dd5cd0f9e038ffa9.png",
+      "status": 200,
+      "localBytes": 25038,
+      "contentLength": "25038",
+      "contentType": "image/png"
+    },
+    {
+      "path": "external/xrextras/resources/settings-icon-ios-b97b7b2ff938e94fe85d.png",
+      "status": 200,
+      "localBytes": 44161,
+      "contentLength": "44161",
+      "contentType": "image/png"
+    },
+    {
+      "path": "external/xrextras/resources/share-1828fa0caa6e19778f10.svg",
+      "status": 200,
+      "localBytes": 1919,
+      "contentLength": "1919",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "external/xrextras/resources/sound-off-6132727c7910ba93733a.svg",
+      "status": 200,
+      "localBytes": 789,
+      "contentLength": "789",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "external/xrextras/resources/sound-on-0c58ab154bdbbc9c963f.svg",
+      "status": 200,
+      "localBytes": 932,
+      "contentLength": "932",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "external/xrextras/resources/stats.16.min-aab1b1111df515c30351.js",
+      "status": 200,
+      "localBytes": 1911,
+      "contentLength": "1911",
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "external/xrextras/resources/view-e6a2fc57812528d050f1.svg",
+      "status": 200,
+      "localBytes": 1393,
+      "contentLength": "1393",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "external/xrextras/resources/xtra-arrow-7ee38c097d8b81c7c5fa.svg",
+      "status": 200,
+      "localBytes": 385,
+      "contentLength": "385",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "external/xrextras/xrextras.js",
+      "status": 200,
+      "localBytes": 131921,
+      "contentLength": "131921",
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "targets/city.json",
+      "status": 200,
+      "localBytes": 522,
+      "contentLength": "522",
+      "contentType": "application/json; charset=utf-8"
+    },
+    {
+      "path": "targets/city_cropped.jpg",
+      "status": 200,
+      "localBytes": 329147,
+      "contentLength": "329147",
+      "contentType": "image/jpeg"
+    },
+    {
+      "path": "targets/city_luminance.jpg",
+      "status": 200,
+      "localBytes": 52164,
+      "contentLength": "52164",
+      "contentType": "image/jpeg"
+    },
+    {
+      "path": "targets/city_original.jpg",
+      "status": 200,
+      "localBytes": 329147,
+      "contentLength": "329147",
+      "contentType": "image/jpeg"
+    },
+    {
+      "path": "targets/city_thumbnail.jpg",
+      "status": 200,
+      "localBytes": 19426,
+      "contentLength": "19426",
+      "contentType": "image/jpeg"
+    },
+    {
+      "path": "targets/portrait.json",
+      "status": 200,
+      "localBytes": 546,
+      "contentLength": "546",
+      "contentType": "application/json; charset=utf-8"
+    },
+    {
+      "path": "targets/portrait_cropped.jpg",
+      "status": 200,
+      "localBytes": 151551,
+      "contentLength": "151551",
+      "contentType": "image/jpeg"
+    },
+    {
+      "path": "targets/portrait_luminance.jpg",
+      "status": 200,
+      "localBytes": 16367,
+      "contentLength": "16367",
+      "contentType": "image/jpeg"
+    },
+    {
+      "path": "targets/portrait_original.jpg",
+      "status": 200,
+      "localBytes": 151551,
+      "contentLength": "151551",
+      "contentType": "image/jpeg"
+    },
+    {
+      "path": "targets/portrait_thumbnail.jpg",
+      "status": 200,
+      "localBytes": 7792,
+      "contentLength": "7792",
+      "contentType": "image/jpeg"
+    },
+    {
+      "path": "media/city.mp4",
+      "status": 200,
+      "localBytes": 1862205,
+      "contentLength": "1862205",
+      "contentType": "video/mp4"
+    },
+    {
+      "path": "media/portrait.mp4",
+      "status": 200,
+      "localBytes": 1862205,
+      "contentLength": "1862205",
+      "contentType": "video/mp4"
+    }
+  ]
+}

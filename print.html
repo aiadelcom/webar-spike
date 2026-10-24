@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Цели для экрана и печати · SPIKE-AR1</title>
+  <link rel="icon" href="data:,">
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #eeeae2; font: 16px system-ui, sans-serif; color: #142b28; }
+    nav { padding: 20px; text-align: center; }
+    a { color: inherit; }
+    section { min-height: 100svh; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 24px; break-after: page; }
+    img { display: block; max-height: 78svh; max-width: 90vw; width: auto; height: auto; aspect-ratio: 3/4; object-fit: contain; }
+    h1 { font-size: 18px; }
+    p { max-width: 620px; font-size: 13px; text-align: center; }
+    @page { size: A4 portrait; margin: 12mm; }
+    @media print {
+      body { background: white; }
+      nav { display: none; }
+      section { height: 272mm; min-height: 0; padding: 0; }
+      section:last-child { break-after: auto; }
+      img { width: 168mm; height: 224mm; max-width: 100%; max-height: none; }
+      h1 { font-size: 12pt; margin: 4mm 0; }
+      p { font-size: 9pt; margin: 2mm 0; }
+    }
+  </style>
+</head>
+<body>
+  <nav><a href="index.html">← Открыть камеру на телефоне</a><p>На ноутбуке: прокрутите к одной фотографии. Для печати: Ctrl/Cmd+P → A4, масштаб 100%, без колонтитулов.</p></nav>
+  <section>
+    <img src="targets/portrait_cropped.jpg" alt="portrait — портрет на нейтральном фоне" width="1200" height="1600">
+    <h1>01 · portrait · Портрет</h1>
+    <p>Наведите телефон на фото целиком. Сначала экран, затем матовая печать.</p>
+  </section>
+  <section>
+    <img src="targets/city_cropped.jpg" alt="city — город с множеством деталей" width="1200" height="1600">
+    <h1>02 · city · Город</h1>
+    <p>Тест 03: распечатайте это же фото на глянце, проверьте под лампой с бликами и под углом без блика. Новая цель не нужна.</p>
+  </section>
+</body>
+</html>

@@ -1,0 +1,245 @@
+{
+  "video": {
+    "durationSeconds": 2.867,
+    "h264Avc1SampleEntry": true,
+    "bytes": 1862205
+  },
+  "externalBytes": 13577132,
+  "files": [
+    {
+      "path": "external/scripts/8frame-1.5.0.min.js",
+      "bytes": 1389713,
+      "sha256": "7617f92c289abf00ef6fbc6bfee35944f6c4c2b1e1200e8e8d4cc58ea4a067af"
+    },
+    {
+      "path": "external/scripts/LICENSE",
+      "bytes": 15932,
+      "sha256": "910ef68267345289c25ad7f59f216e39a5bae49cb01c1678c55aab6aa2df4fe6"
+    },
+    {
+      "path": "external/xr/LICENSE",
+      "bytes": 15994,
+      "sha256": "ed166ff1e5002cd7557f2c595a2398b092e76481070e6bc3b253e51517f3ae61"
+    },
+    {
+      "path": "external/xr/resources/dom-tablet-button.glb",
+      "bytes": 38236,
+      "sha256": "69bb197329b5382906360a58e8a00995dae958667dbe93b002cb51068bfefda6"
+    },
+    {
+      "path": "external/xr/resources/dom-tablet-frame.glb",
+      "bytes": 43028,
+      "sha256": "ceb73d8655c544b8fe0c60fdf7de9a6c5e20ed9410e5c412f325b183360ed9ed"
+    },
+    {
+      "path": "external/xr/resources/media-worker.js",
+      "bytes": 4995543,
+      "sha256": "db47c89ca2ec7d9eba75e114c195896c74c7b0ff888ce2970dfd9bd8bdfeda8d"
+    },
+    {
+      "path": "external/xr/resources/powered-by.svg",
+      "bytes": 6056,
+      "sha256": "4c8bf13771807ac55c963fc08421f611e6e1ab37d5410dc0bbf049f94bea0797"
+    },
+    {
+      "path": "external/xr/xr-slam.js",
+      "bytes": 5538007,
+      "sha256": "398f675c920892afd4521d5196df2b6b8a1b8a90b6a5c749cf5ad1a6e0a85270"
+    },
+    {
+      "path": "external/xr/xr.js",
+      "bytes": 1036695,
+      "sha256": "b3973936862f4cb77ae32d24f253d8a0e8b1de4fa2a0cf688833742889ee829d"
+    },
+    {
+      "path": "external/xrextras/LICENSE",
+      "bytes": 1069,
+      "sha256": "0a320756838ccfc28f5652e81e9d20dec1a23428c1841d9d378af5f44c7b5cde"
+    },
+    {
+      "path": "external/xrextras/resources/Nunito-Regular-1c6859b0d94c85eeab14.ttf",
+      "bytes": 48808,
+      "sha256": "3a43894fe7325d24a680cf14831f6bc9e0ae24be7d902e85c66b02995f3323cc"
+    },
+    {
+      "path": "external/xrextras/resources/Nunito-Regular-e8aadc1b678fa56c9d09.woff",
+      "bytes": 25156,
+      "sha256": "ffd2cb159789db573cdd7d640a5cb257b9bfcacd6a74ba4649a09c13e5a066c4"
+    },
+    {
+      "path": "external/xrextras/resources/Nunito-SemiBold-30a2630500a6934f6e62.ttf",
+      "bytes": 49100,
+      "sha256": "4bfe940da7acc909552e13ce7d1d42a310c2afbfbb83c93738a2761e48492829"
+    },
+    {
+      "path": "external/xrextras/resources/Nunito-SemiBold-51aac6462452f9d89a71.woff",
+      "bytes": 25272,
+      "sha256": "f84f2521be747ea29c43e14a189a288282602aa40665112b0c6a541656b47464"
+    },
+    {
+      "path": "external/xrextras/resources/android-fallback-e7f674541b4f5499c9f6.png",
+      "bytes": 15371,
+      "sha256": "a9de3e5c752b5b8510db57bd8948bedd14df76d70a4745d9cd313a0ca0c044a4"
+    },
+    {
+      "path": "external/xrextras/resources/camera-9a529c4cbecd57bdd44d.svg",
+      "bytes": 825,
+      "sha256": "958b3eeb87840eb7429e9d3c24eaacf651563148d71e1efb54ca5c1fe2e7206a"
+    },
+    {
+      "path": "external/xrextras/resources/close-c1a3ef4f62e661792b89.svg",
+      "bytes": 494,
+      "sha256": "9ef6df02f5c91b9f978878f9d1455d054557d0de9b73331906fbc669aea00730"
+    },
+    {
+      "path": "external/xrextras/resources/computer-voxel-81a0a7b770f943336d6b.png",
+      "bytes": 52983,
+      "sha256": "81d9ad5a6d9d9d4511625edd3382b77423349e5ca383d68ef3090616fb1661f6"
+    },
+    {
+      "path": "external/xrextras/resources/dots-80d25cf3012227aa2cd3.svg",
+      "bytes": 1322,
+      "sha256": "50688f420e20e5c5c546584ed598a3fc0d555feae13063137fa2e88642e91b84"
+    },
+    {
+      "path": "external/xrextras/resources/download-579ee96584dfa7773ded.svg",
+      "bytes": 2531,
+      "sha256": "e25ddd907117022301840369f2127aafe21d957eb7dbba0f4ce52ebc5a144185"
+    },
+    {
+      "path": "external/xrextras/resources/google-chrome-36a08b3267faf39f1efd.png",
+      "bytes": 15034,
+      "sha256": "c8ea003428d905327cb8b9bea5dfd9cc238272968b059be957337f9671cf0646"
+    },
+    {
+      "path": "external/xrextras/resources/load-grad-212951b3b037207ca630.png",
+      "bytes": 16274,
+      "sha256": "b183cbc642150abb54528d7a5ca53a552b9f0a770f548bc7b2832162d86b0cce"
+    },
+    {
+      "path": "external/xrextras/resources/microphone-3962338638d992842c39.svg",
+      "bytes": 1976,
+      "sha256": "da2d333c7adc4f84db3186e327eb4801c7285fe83df0f4b937bf0c0d04f63742"
+    },
+    {
+      "path": "external/xrextras/resources/poweredby-horiz-white-0b1f38e485e6541907d3.svg",
+      "bytes": 15759,
+      "sha256": "8c3226e1746f6d8ea85615ece49bbfdda848b308de21ea34986bba85c90739fb"
+    },
+    {
+      "path": "external/xrextras/resources/reload-4629651ddd76db4ade3b.svg",
+      "bytes": 767,
+      "sha256": "c74875cc92d072dd875a239948229cbd406a4bc06a3b5e610c84e8aef25eaeef"
+    },
+    {
+      "path": "external/xrextras/resources/safari-fallback-651a4291492cf0a55a49.png",
+      "bytes": 16738,
+      "sha256": "3c5b24d9ec10045d487b6c8639ea507b2a39a78c736e703ebd08b3ae3c45306f"
+    },
+    {
+      "path": "external/xrextras/resources/safari-icon-9417dd5cd0f9e038ffa9.png",
+      "bytes": 25038,
+      "sha256": "d284a6bb30cdcfdf1d6ecc8760d1c4c580ea0dbe235471dffbcbb5d09d393894"
+    },
+    {
+      "path": "external/xrextras/resources/settings-icon-ios-b97b7b2ff938e94fe85d.png",
+      "bytes": 44161,
+      "sha256": "c0e86aa59cef3cd9a53bfea1768f016a2532642ffa8eac290c52ce4f093c165f"
+    },
+    {
+      "path": "external/xrextras/resources/share-1828fa0caa6e19778f10.svg",
+      "bytes": 1919,
+      "sha256": "66c4a2be7e0af13c985e0c51036ea0048d4d1fea8e252304b6402203fbab857b"
+    },
+    {
+      "path": "external/xrextras/resources/sound-off-6132727c7910ba93733a.svg",
+      "bytes": 789,
+      "sha256": "4dce8c55a72b5dcd84b524b1e8e4568c7a5ab352698770c335fb8f334161db96"
+    },
+    {
+      "path": "external/xrextras/resources/sound-on-0c58ab154bdbbc9c963f.svg",
+      "bytes": 932,
+      "sha256": "0a013458b4f3d5b35a61db69e8648a531b119801aa14f8543b7ed0d4df6114a9"
+    },
+    {
+      "path": "external/xrextras/resources/stats.16.min-aab1b1111df515c30351.js",
+      "bytes": 1911,
+      "sha256": "22112903935543a9b1ae0279a15fe0d1047224db1bd2497d3fd99986a6477257"
+    },
+    {
+      "path": "external/xrextras/resources/view-e6a2fc57812528d050f1.svg",
+      "bytes": 1393,
+      "sha256": "155a3116e1e2da90257c2d2166241f4df1e759c53e3ba8e7f3e6c78c1e7cd949"
+    },
+    {
+      "path": "external/xrextras/resources/xtra-arrow-7ee38c097d8b81c7c5fa.svg",
+      "bytes": 385,
+      "sha256": "64086de93936a4eef01125d4e894cb3c90b40a3c074461f1a201b4daad1f4e76"
+    },
+    {
+      "path": "external/xrextras/xrextras.js",
+      "bytes": 131921,
+      "sha256": "2f87a0a4a22821f85399f58d758e69ad7d7fa1868611b3f4b6fb70608a87f678"
+    },
+    {
+      "path": "targets/city.json",
+      "bytes": 522,
+      "sha256": "edc063f797d604e7675cb01974bbe4fc440f4a05281c8feb96a3e39c4c87acbf"
+    },
+    {
+      "path": "targets/city_cropped.jpg",
+      "bytes": 329147,
+      "sha256": "57ab44e1ea969eb09f01f68795f5b08ac5d95dfd961fc6673603f2ab553f63fd"
+    },
+    {
+      "path": "targets/city_luminance.jpg",
+      "bytes": 52164,
+      "sha256": "c2c698fb15243c7d56fb8d1b23e5aec27422c0c73a8611759f40cf54903dcc3f"
+    },
+    {
+      "path": "targets/city_original.jpg",
+      "bytes": 329147,
+      "sha256": "57ab44e1ea969eb09f01f68795f5b08ac5d95dfd961fc6673603f2ab553f63fd"
+    },
+    {
+      "path": "targets/city_thumbnail.jpg",
+      "bytes": 19426,
+      "sha256": "1444cb36b455c45816309523aad79bd10cae64074a8b9376f2b7bff4b0992403"
+    },
+    {
+      "path": "targets/portrait.json",
+      "bytes": 546,
+      "sha256": "724d1d68d049891e000719c154b5d3c7cd3b73dda5e914c99a091e9f8383d380"
+    },
+    {
+      "path": "targets/portrait_cropped.jpg",
+      "bytes": 151551,
+      "sha256": "fd717990ff5086bb0598540259dc9ca19a1e84a570f1d8b746e21974a26b81a9"
+    },
+    {
+      "path": "targets/portrait_luminance.jpg",
+      "bytes": 16367,
+      "sha256": "19cb15339bb2cce0b1c12539c19911e3152893df4e05b3859a371560c1c9cdfa"
+    },
+    {
+      "path": "targets/portrait_original.jpg",
+      "bytes": 151551,
+      "sha256": "fd717990ff5086bb0598540259dc9ca19a1e84a570f1d8b746e21974a26b81a9"
+    },
+    {
+      "path": "targets/portrait_thumbnail.jpg",
+      "bytes": 7792,
+      "sha256": "532b2176ded36c394a778b1ed0dac3e861142086bac4feb6d9ff6ffae9e5b90d"
+    },
+    {
+      "path": "media/city.mp4",
+      "bytes": 1862205,
+      "sha256": "a58f047af3e50b020cd1caf7a09d3322d5eb09f66418f5011fdac8585344cabb"
+    },
+    {
+      "path": "media/portrait.mp4",
+      "bytes": 1862205,
+      "sha256": "a58f047af3e50b020cd1caf7a09d3322d5eb09f66418f5011fdac8585344cabb"
+    }
+  ]
+}

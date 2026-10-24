@@ -1,7 +1,28 @@
 {
-  "checkedAt": "2026-10-24T17:02:05.813419+00:00",
+  "checkedAt": "2026-10-24T17:10:17.740575+00:00",
   "base": "https://aiadelcom.github.io/webar-spike/",
   "files": [
+    {
+      "path": "",
+      "status": 200,
+      "localBytes": 3842,
+      "contentLength": "3842",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "path": "mit/",
+      "status": 200,
+      "localBytes": 3945,
+      "contentLength": "3945",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "path": "mit/index.html",
+      "status": 200,
+      "localBytes": 3945,
+      "contentLength": "3945",
+      "contentType": "text/html; charset=utf-8"
+    },
     {
       "path": "index.html",
       "status": 200,
@@ -19,8 +40,8 @@
     {
       "path": "app.js",
       "status": 200,
-      "localBytes": 13469,
-      "contentLength": "13469",
+      "localBytes": 13691,
+      "contentLength": "13691",
       "contentType": "application/javascript; charset=utf-8"
     },
     {
@@ -33,8 +54,8 @@
     {
       "path": "LICENSE-THIRD-PARTY.md",
       "status": 200,
-      "localBytes": 17209,
-      "contentLength": "17209",
+      "localBytes": 18322,
+      "contentLength": "18322",
       "contentType": "text/markdown; charset=utf-8"
     },
     {
@@ -73,13 +94,6 @@
       "contentType": "model/gltf-binary"
     },
     {
-      "path": "external/xr/resources/media-worker.js",
-      "status": 200,
-      "localBytes": 4995543,
-      "contentLength": "4995543",
-      "contentType": "application/javascript; charset=utf-8"
-    },
-    {
       "path": "external/xr/resources/powered-by.svg",
       "status": 200,
       "localBytes": 6056,
@@ -98,6 +112,34 @@
       "status": 200,
       "localBytes": 1036695,
       "contentLength": "1036695",
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "external/xr-mit/LICENSE",
+      "status": 200,
+      "localBytes": 1069,
+      "contentLength": "1069",
+      "contentType": "application/octet-stream"
+    },
+    {
+      "path": "external/xr-mit/resources/powered-by.svg",
+      "status": 200,
+      "localBytes": 6056,
+      "contentLength": "6056",
+      "contentType": "image/svg+xml"
+    },
+    {
+      "path": "external/xr-mit/xr-tracking.js",
+      "status": 200,
+      "localBytes": 3887693,
+      "contentLength": "3887693",
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "external/xr-mit/xr.js",
+      "status": 200,
+      "localBytes": 1014245,
+      "contentLength": "1014245",
       "contentType": "application/javascript; charset=utf-8"
     },
     {

@@ -1,0 +1,250 @@
+{
+  "base": "https://aiadelcom.github.io/webar-spike/mit/",
+  "browser": "149.0.7827.55",
+  "console": [
+    {
+      "type": "info",
+      "text": "[SPIKE-AR1] {\"at\":\"2026-10-24T17:10:16.692Z\",\"pageMs\":279,\"event\":\"page-open\",\"engine\":\"mit\",\"userAgent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36\",\"secureContext\":true}"
+    },
+    {
+      "type": "info",
+      "text": "[SPIKE-AR1] {\"at\":\"2026-10-24T17:10:16.864Z\",\"pageMs\":450,\"event\":\"start-click\"}"
+    },
+    {
+      "type": "log",
+      "text": "%ccore:schema:warn %cDefault value `0` does not match type `color` in component `undefined`%c  color: orange color: inherit color: orange"
+    },
+    {
+      "type": "log",
+      "text": "8-Frame Version: 1.5.0 (Date 2024-08-09, Commit #3371454b)"
+    },
+    {
+      "type": "log",
+      "text": "THREE Version (https://github.com/supermedium/three.js): 0.158.0"
+    },
+    {
+      "type": "log",
+      "text": "WebVR Polyfill Version: ^0.10.12"
+    },
+    {
+      "type": "log",
+      "text": "8th Wall XR Version: 0.1.0s"
+    },
+    {
+      "type": "info",
+      "text": "[SPIKE-AR1] {\"at\":\"2026-10-24T17:10:18.171Z\",\"pageMs\":1757,\"event\":\"engine-configured\",\"engine\":\"mit\",\"enginePath\":\"external/xr-mit/xr.js\",\"disableWorldTracking\":true,\"targets\":[\"portrait\",\"city\"],\"aframe\":\"1.5.0\"}"
+    },
+    {
+      "type": "warning",
+      "text": "THREE.WebGLRenderer: The property .useLegacyLights has been deprecated. Migrate your lighting according to the following guide: https://discourse.threejs.org/t/updates-to-lighting-in-three-js-r155/53733."
+    },
+    {
+      "type": "info",
+      "text": "[SPIKE-AR1] {\"at\":\"2026-10-24T17:10:18.270Z\",\"pageMs\":1857,\"event\":\"camera\",\"status\":\"requesting\"}"
+    },
+    {
+      "type": "warning",
+      "text": "[.WebGL-0x326c02f38c00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+    },
+    {
+      "type": "warning",
+      "text": "[.WebGL-0x326c02f38c00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+    },
+    {
+      "type": "warning",
+      "text": "[.WebGL-0x326c02f38c00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels"
+    },
+    {
+      "type": "warning",
+      "text": "[.WebGL-0x326c02f38c00]GL Driver Message (OpenGL, Performance, GL_CLOSE_PATH_NV, High): GPU stall due to ReadPixels (this message will no longer repeat)"
+    },
+    {
+      "type": "info",
+      "text": "[SPIKE-AR1] {\"at\":\"2026-10-24T17:10:18.334Z\",\"pageMs\":1920,\"event\":\"camera\",\"status\":\"hasStream\"}"
+    },
+    {
+      "type": "info",
+      "text": "[SPIKE-AR1] {\"at\":\"2026-10-24T17:10:18.438Z\",\"pageMs\":2025,\"event\":\"camera\",\"status\":\"hasVideo\"}"
+    },
+    {
+      "type": "info",
+      "text": "[SPIKE-AR1] {\"at\":\"2026-10-24T17:10:18.439Z\",\"pageMs\":2026,\"event\":\"camera-start\",\"clock\":\"performance.now\",\"origin\":\"camerastatuschange:hasVideo\"}"
+    },
+    {
+      "type": "info",
+      "text": "[SPIKE-AR1] {\"at\":\"2026-10-24T17:10:18.524Z\",\"pageMs\":2110,\"event\":\"xrimageloading\"}"
+    },
+    {
+      "type": "info",
+      "text": "[SPIKE-AR1] {\"at\":\"2026-10-24T17:10:19.974Z\",\"pageMs\":3560,\"event\":\"xrimagescanning\",\"targets\":[\"portrait\",\"city\"]}"
+    },
+    {
+      "type": "info",
+      "text": "[SPIKE-AR1] {\"at\":\"2026-10-24T17:10:20.689Z\",\"pageMs\":4275,\"event\":\"realityready\"}"
+    },
+    {
+      "type": "warning",
+      "text": "[XR] Pause cannot be called at this time."
+    },
+    {
+      "type": "info",
+      "text": "[SPIKE-AR1] {\"at\":\"2026-10-24T17:10:28.083Z\",\"pageMs\":11670,\"event\":\"fallback\",\"reason\":\"Камера закрыта. Для нового замера перезагрузите страницу.\"}"
+    }
+  ],
+  "pageErrors": [],
+  "failedRequests": [
+    {
+      "url": "https://aiadelcom.github.io/webar-spike/media/portrait.mp4",
+      "error": {
+        "errorText": "net::ERR_ABORTED"
+      }
+    }
+  ],
+  "checks": {
+    "status": "scanning · наведите на фото",
+    "timing": "Камера → первый захват: — мс",
+    "engine": {
+      "XR8": true,
+      "aframe": "1.5.0",
+      "scene": true,
+      "camera": true
+    },
+    "hasVideo": true,
+    "realityready": true,
+    "scanningTargets": [
+      "portrait",
+      "city"
+    ],
+    "networkIndependent": true,
+    "video": [
+      {
+        "id": "ar-video-portrait",
+        "duration": 2.866667,
+        "width": 980,
+        "height": 1308,
+        "readyState": 4,
+        "muted": true,
+        "playsInline": true,
+        "loop": true
+      },
+      {
+        "id": "ar-video-city",
+        "duration": 2.866667,
+        "width": 980,
+        "height": 1308,
+        "readyState": 4,
+        "muted": true,
+        "playsInline": true,
+        "loop": true
+      }
+    ],
+    "stopFallback": true,
+    "manualCopyLink": true,
+    "copyLog": true,
+    "fallbackVideo": {
+      "duration": 2.866667,
+      "playing": true
+    },
+    "instagram": {
+      "fallback": true,
+      "copyLink": true,
+      "engineLoaded": false
+    },
+    "telegram": {
+      "fallback": true,
+      "copyLink": true,
+      "engineLoaded": false
+    },
+    "facebook": {
+      "fallback": true,
+      "copyLink": true,
+      "engineLoaded": false
+    },
+    "vk": {
+      "fallback": true,
+      "copyLink": true,
+      "engineLoaded": false
+    },
+    "noGetUserMedia": {
+      "fallback": true,
+      "copyLink": true,
+      "engineLoaded": false
+    },
+    "cameraDenied": {
+      "fallback": true,
+      "reason": "Камера недоступна или доступ отклонён. Откройте ссылку в Safari/Chrome и разрешите камеру.",
+      "console": [
+        {
+          "type": "info",
+          "text": "[SPIKE-AR1] {\"at\":\"2026-10-24T17:10:29.401Z\",\"pageMs\":16,\"event\":\"page-open\",\"engine\":\"mit\",\"userAgent\":\"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/149.0.7827.55 Safari/537.36\",\"secureContext\":true}"
+        },
+        {
+          "type": "info",
+          "text": "[SPIKE-AR1] {\"at\":\"2026-10-24T17:10:29.482Z\",\"pageMs\":97,\"event\":\"start-click\"}"
+        },
+        {
+          "type": "log",
+          "text": "%ccore:schema:warn %cDefault value `0` does not match type `color` in component `undefined`%c  color: orange color: inherit color: orange"
+        },
+        {
+          "type": "log",
+          "text": "8-Frame Version: 1.5.0 (Date 2024-08-09, Commit #3371454b)"
+        },
+        {
+          "type": "log",
+          "text": "THREE Version (https://github.com/supermedium/three.js): 0.158.0"
+        },
+        {
+          "type": "log",
+          "text": "WebVR Polyfill Version: ^0.10.12"
+        },
+        {
+          "type": "log",
+          "text": "8th Wall XR Version: 0.1.0s"
+        },
+        {
+          "type": "info",
+          "text": "[SPIKE-AR1] {\"at\":\"2026-10-24T17:10:30.069Z\",\"pageMs\":684,\"event\":\"engine-configured\",\"engine\":\"mit\",\"enginePath\":\"external/xr-mit/xr.js\",\"disableWorldTracking\":true,\"targets\":[\"portrait\",\"city\"],\"aframe\":\"1.5.0\"}"
+        },
+        {
+          "type": "warning",
+          "text": "THREE.WebGLRenderer: The property .useLegacyLights has been deprecated. Migrate your lighting according to the following guide: https://discourse.threejs.org/t/updates-to-lighting-in-three-js-r155/53733."
+        },
+        {
+          "type": "info",
+          "text": "[SPIKE-AR1] {\"at\":\"2026-10-24T17:10:30.152Z\",\"pageMs\":767,\"event\":\"camera\",\"status\":\"requesting\"}"
+        },
+        {
+          "type": "info",
+          "text": "[SPIKE-AR1] {\"at\":\"2026-10-24T17:10:30.185Z\",\"pageMs\":799,\"event\":\"camera\",\"status\":\"failed\"}"
+        },
+        {
+          "type": "warning",
+          "text": "[XR] Pause cannot be called at this time."
+        },
+        {
+          "type": "info",
+          "text": "[SPIKE-AR1] {\"at\":\"2026-10-24T17:10:30.189Z\",\"pageMs\":803,\"event\":\"fallback\",\"reason\":\"Камера недоступна или доступ отклонён. Откройте ссылку в Safari/Chrome и разрешите камеру.\"}"
+        },
+        {
+          "type": "info",
+          "text": "[SPIKE-AR1] {\"at\":\"2026-10-24T17:10:30.223Z\",\"pageMs\":838,\"event\":\"visibility\",\"hidden\":true}"
+        }
+      ],
+      "pageErrors": []
+    },
+    "printImages": [
+      {
+        "width": 1200,
+        "height": 1600,
+        "complete": true
+      },
+      {
+        "width": 1200,
+        "height": 1600,
+        "complete": true
+      }
+    ],
+    "printSections": 2
+  }
+}

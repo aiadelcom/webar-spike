@@ -1,0 +1,128 @@
+{
+  "base": "https://aiadelcom.github.io/webar-spike/mit/",
+  "engine": "@8thwall/engine@0.1.0",
+  "captureStarted": "before navigation",
+  "coverage": "isolated browser context including worker requests; no host blocking",
+  "scanningAt": "2026-10-24T17:10:19.976Z",
+  "requestsUntilScanning": [
+    {
+      "url": "https://aiadelcom.github.io/webar-spike/mit/",
+      "method": "GET",
+      "resourceType": "document",
+      "at": "2026-10-24T17:10:16.416Z",
+      "status": 200
+    },
+    {
+      "url": "https://aiadelcom.github.io/webar-spike/style.css",
+      "method": "GET",
+      "resourceType": "stylesheet",
+      "at": "2026-10-24T17:10:16.581Z",
+      "status": 200
+    },
+    {
+      "url": "https://aiadelcom.github.io/webar-spike/app.js",
+      "method": "GET",
+      "resourceType": "script",
+      "at": "2026-10-24T17:10:16.582Z",
+      "status": 200
+    },
+    {
+      "url": "https://aiadelcom.github.io/webar-spike/targets/portrait_cropped.jpg",
+      "method": "GET",
+      "resourceType": "image",
+      "at": "2026-10-24T17:10:16.582Z",
+      "status": 200
+    },
+    {
+      "url": "https://aiadelcom.github.io/webar-spike/targets/city_cropped.jpg",
+      "method": "GET",
+      "resourceType": "image",
+      "at": "2026-10-24T17:10:16.582Z",
+      "status": 200
+    },
+    {
+      "url": "https://aiadelcom.github.io/webar-spike/media/portrait.mp4",
+      "method": "GET",
+      "resourceType": "media",
+      "at": "2026-10-24T17:10:16.587Z",
+      "status": 206,
+      "failure": "net::ERR_ABORTED"
+    },
+    {
+      "url": "https://aiadelcom.github.io/webar-spike/targets/portrait.json",
+      "method": "GET",
+      "resourceType": "fetch",
+      "at": "2026-10-24T17:10:16.869Z",
+      "status": 200
+    },
+    {
+      "url": "https://aiadelcom.github.io/webar-spike/targets/city.json",
+      "method": "GET",
+      "resourceType": "fetch",
+      "at": "2026-10-24T17:10:16.869Z",
+      "status": 200
+    },
+    {
+      "url": "https://aiadelcom.github.io/webar-spike/external/scripts/8frame-1.5.0.min.js",
+      "method": "GET",
+      "resourceType": "script",
+      "at": "2026-10-24T17:10:16.869Z",
+      "status": 200
+    },
+    {
+      "url": "https://aiadelcom.github.io/webar-spike/media/portrait.mp4",
+      "method": "GET",
+      "resourceType": "media",
+      "at": "2026-10-24T17:10:16.878Z",
+      "status": 206
+    },
+    {
+      "url": "https://aiadelcom.github.io/webar-spike/media/city.mp4",
+      "method": "GET",
+      "resourceType": "media",
+      "at": "2026-10-24T17:10:16.878Z",
+      "status": 206
+    },
+    {
+      "url": "https://aiadelcom.github.io/webar-spike/external/xrextras/xrextras.js",
+      "method": "GET",
+      "resourceType": "script",
+      "at": "2026-10-24T17:10:17.310Z",
+      "status": 200
+    },
+    {
+      "url": "https://aiadelcom.github.io/webar-spike/external/xr-mit/xr.js",
+      "method": "GET",
+      "resourceType": "script",
+      "at": "2026-10-24T17:10:17.454Z",
+      "status": 200
+    },
+    {
+      "url": "https://aiadelcom.github.io/webar-spike/external/xr-mit/xr-tracking.js",
+      "method": "GET",
+      "resourceType": "script",
+      "at": "2026-10-24T17:10:17.739Z",
+      "status": 200
+    },
+    {
+      "url": "https://aiadelcom.github.io/webar-spike/targets/portrait_luminance.jpg",
+      "method": "GET",
+      "resourceType": "image",
+      "at": "2026-10-24T17:10:18.531Z",
+      "status": 200
+    },
+    {
+      "url": "https://aiadelcom.github.io/webar-spike/targets/city_luminance.jpg",
+      "method": "GET",
+      "resourceType": "image",
+      "at": "2026-10-24T17:10:18.531Z",
+      "status": 200
+    }
+  ],
+  "requestsAfterScanningUntilStop": [],
+  "hosts": [
+    "aiadelcom.github.io"
+  ],
+  "nianticRequests": [],
+  "binaryRuntimeRequests": []
+}

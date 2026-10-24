@@ -1,0 +1,23 @@
+{
+  "imagePath": "targets/city_luminance.jpg",
+  "metadata": null,
+  "name": "city",
+  "type": "PLANAR",
+  "properties": {
+    "left": 0,
+    "top": 0,
+    "width": 1200,
+    "height": 1600,
+    "isRotated": false,
+    "originalWidth": 1200,
+    "originalHeight": 1600
+  },
+  "resources": {
+    "originalImage": "city_original.jpg",
+    "croppedImage": "city_cropped.jpg",
+    "thumbnailImage": "city_thumbnail.jpg",
+    "luminanceImage": "city_luminance.jpg"
+  },
+  "created": 1792860874635,
+  "updated": 1792860874635
+}

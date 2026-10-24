@@ -1,0 +1,23 @@
+{
+  "imagePath": "targets/portrait_luminance.jpg",
+  "metadata": null,
+  "name": "portrait",
+  "type": "PLANAR",
+  "properties": {
+    "left": 0,
+    "top": 0,
+    "width": 1200,
+    "height": 1600,
+    "isRotated": false,
+    "originalWidth": 1200,
+    "originalHeight": 1600
+  },
+  "resources": {
+    "originalImage": "portrait_original.jpg",
+    "croppedImage": "portrait_cropped.jpg",
+    "thumbnailImage": "portrait_thumbnail.jpg",
+    "luminanceImage": "portrait_luminance.jpg"
+  },
+  "created": 1792860848914,
+  "updated": 1792860848914
+}
